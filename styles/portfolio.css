@@ -145,3 +145,31 @@ main {
 .skill-description{
     color: #757575;
 }
+/* resume style  */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-items{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+.resume-button{
+    margin-top: 30px;
+    text-align: center;
+}
