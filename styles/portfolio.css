@@ -71,9 +71,10 @@ nav li {
 }
 
 /* main section style */
-section{
+section {
     margin-top: 130px;
 }
+
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -142,34 +143,67 @@ main {
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.skill-description{
+
+.skill-description {
     color: #757575;
 }
+
 /* resume style  */
-.resume-container{
+.resume-container {
     display: flex;
     gap: 24px;
 }
-.resume-items{
+
+.resume-items {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.resume .title{
+
+.resume .title {
     color: #474747;
     font-weight: 700;
     font-size: 25px;
     margin-bottom: 10px;
 }
-.resume .sub-title{
+
+.resume .sub-title {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.resume .description{
+
+.resume .description {
     color: #757575;
 }
-.resume-button{
+
+.resume-button {
     margin-top: 30px;
     text-align: center;
+}
+
+/* contac style */
+.contac {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+
+.contac .section-title {
+    text-align: left;
+}
+
+.contac input[type="text"], [type="email"], textarea {
+    margin-bottom: 24px;
+    width: 100%;
+    border: 0;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
+}
+.contac a{
+    text-decoration: none;
 }
